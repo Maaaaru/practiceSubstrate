@@ -30,7 +30,7 @@ decl_storage! {
     Supply get(supply): u128;
     BalanceOf get(balance_of): map T::AccountId => u128;
 	}
-}
+} 
 
 decl_module! {
 	/// The module declaration.
